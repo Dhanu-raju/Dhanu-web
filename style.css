@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    font-family: newweb;
+    border: border-box;
+}
+body{
+      background-color: rgba(233, 230, 230, 0.87);
+}
+#navbar{
+    height: 50px;
+    background-color:#000000;
+      color: white;
+      display: flex;
+      align-items: center;
+    
+}
+/*........box navbar......*/
+a{
+    color: silver;
+    text-decoration: none;
+    padding-right: 35px;
+    margin: 70px;
+    border: 1px solid transparent;
+}
+a:hover{
+    color: red;
+     transition: all ease-in ;
+      border: 1px solid white;
+}
+
+/*.......box1.....*/
+
+.navbar-search {
+    height: 32px;
+    width: 430px;
+    color: silver;
+    display: flex;
+    margin: 80px;
+    background-color: red;
+}
+
+/*......box2.......*/
+
+.search-select {
+    width: 40px;
+    height: 31.5px;
+    background-color: whitesmoke;
+    color:black;
+    text-align: center;
+}
+/*.........box-search1........*/
+.search-input{
+      width: 370px;
+    height: 31.5px;
+    text-align: right;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left :0.2px;
+    display: flex;
+}
+/*.........box-search2........*/
+.search-icon{
+    width: 34px;
+    height: 31.5px;
+}
+
+/*.......new........*/
+.search-find{
+      color: silver;
+     padding-right: 10px;
+    margin: 2px;
+    border: 1px solid transparent;
+}
+.search-find:hover {
+      border: 1px solid white;
+}
+/*.........complete navbar.......*/
+
+
+
+.break-box{
+      height: 500px;
+        display: flex;
+   align-items: center;
+    background-color:rgb(214, 210, 210);
+     border: 1px solid transparent;
+}
+
+.break-box1{
+      height: 200px;
+      width: 400px;
+      border: 1px solid #ffffff;
+       background-image: url("my_photo.jpg.jpg");
+        background-size: cover;
+        margin-left: 20px;
+    background-color: rebeccapurple;
+}
+
+
+.break-input{
+  
+    font-size: 15px;
+    margin-left:9px ;
+    color: black;
+     border: 1px solid black;
+ 
+}
+.break-output{
+    font-size: 15px;
+    margin-left:9px ;
+      color: black;
+    border: 1px solid black;
+
+}
+
+label {
+    font-size: 20px;
+    margin-left:9px ;
+     
+     text-align: center;
+    text-transform: uppercase;
+  
+}
+.break-submit{
+      font-size: 12px;
+        margin-left:9px ;
+       
+    text-transform: uppercase;
+    border: 1px solid black; 
+}
+.break-submit:hover{
+    color: red;
+}
+
+
+.break-fieldset {
+    height: 250px;
+    width: 250px;
+    margin-left:400px ;
+    border: 1px solid black;
+    
+}
+#top{
+    height: 35px;
+      margin: 0px;
+    background-color: #232F3E;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#oder{
+    height: 300px;
+    margin: 0px;
+    color: white;
+    background-color: #37475A;
+    align-items: end;
+}
